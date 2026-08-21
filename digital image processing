@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMxoJbvpb4YCIanS9ejRO/W",
+      "authorship_tag": "ABX9TyMBfmcRdoOkZcx3aCjVPae8",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -223,7 +223,7 @@
         "id": "r-UMZEkAq8fF",
         "outputId": "b11ac629-6d83-4f60-8264-abb603f17206"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -287,6 +287,19 @@
           "metadata": {}
         }
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import cv2\n",
+        "import matplotlib.pyplot as plt\n",
+        "image = cv2.imread(\"\")"
+      ],
+      "metadata": {
+        "id": "Pz5tyttNGN0B"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
